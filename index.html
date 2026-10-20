@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/projects.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
     <!-- ==================== Header starts Here ======================= -->
@@ -12,13 +18,15 @@
     <header>
       <nav>
         <div class="container">
-          <img src="./assets/images/logo.png" alt="logo" class="brand" />
+          <a href="#"
+            ><img src="./assets/images/logo.png" alt="logo" class="brand"
+          /></a>
           <div class="items_btn">
             <ul>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">SKILL</a></li>
-              <li><a href="#">PROJECT</a></li>
-              <li><a href="#">CONTACT</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#hero">SKILL</a></li>
+              <li><a href="#projects">PROJECT</a></li>
+              <li><a href="#contact">CONTACT</a></li>
             </ul>
 
             <button class="talking">Let's Talk</button>
@@ -29,7 +37,7 @@
     <!-- ==================== Header starts Here======================= -->
 
     <!-- ==================== Hero Section Ends======================= -->
-    <div class="hero">
+    <section id="hero">
       <div class="container">
         <div class="hero_content">
           <div class="hero_text_cta">
@@ -63,16 +71,16 @@
           </div>
 
           <div class="hero_image">
-            <img src="./assets/images/Hero Image.jpg" alt="" />
+            <img src="./assets/images/Hero Image.png" alt="Hero Image" />
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- ==================== Hero Section Starts======================= -->
 
     <!-- ==================== About Section Starts======================= -->
 
-    <div class="about">
+    <section id="about">
       <div class="container">
         <div class="about_contents">
           <div class="about_me">
@@ -166,12 +174,12 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- ==================== About Section ends======================= -->
 
     <!-- ==================== Projects Section ends======================= -->
-    <div class="projects">
+    <section id="projects">
       <div class="container">
         <h2>Featured Projects</h2>
         <p class="subtitle">
@@ -278,12 +286,12 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- ==================== Projects Section ends======================= -->
 
     <!-- ==================== Contact Section Starts======================= -->
-    <div class="contact">
+    <section id="contact">
       <div class="container">
         <div class="contact_holder">
           <div class="contact_info">
@@ -345,7 +353,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- ==================== Contact Section Ends======================= -->
 

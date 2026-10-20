@@ -1,0 +1,61 @@
+/* ================= Header starts ================= */
+header {
+  padding: 0px 40px;
+  position: sticky;
+  top: 0px;
+}
+
+header nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+header nav .container .brand {
+  max-width: 100%;
+}
+
+header nav .container .items_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav .container .items_btn .talking {
+  border: none;
+  background-color: var(--button_color);
+  margin-left: 24px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: 1px solid #000000;
+  color: #fff;
+  font-family: var(--plus_font);
+  line-height: 18px;
+  font-size: 13px;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+header nav .container .items_btn ul {
+  display: flex;
+  gap: 28px;
+}
+header nav .container .items_btn ul li {
+  list-style: none;
+}
+header nav .container .items_btn ul li a {
+  text-decoration: none;
+  font-family: var(--plus_font);
+  color: #6b7280;
+  line-height: 18px;
+  letter-spacing: 1.2px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all linear .5s;
+}
+
+header nav .container .items_btn ul li a:hover {
+  color: #0a0a0a;
+}
+/* ================= Header Ends ================= */

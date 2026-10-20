@@ -1,0 +1,91 @@
+/* ================= About starts ================= */
+
+#about .container {
+  padding: 128px 24px;
+}
+#about .container .about_contents {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  column-gap: 64px;
+}
+
+#about .container .about_contents .about_me h2 {
+  font-family: var(--plus_font);
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 46.8px;
+  letter-spacing: -0.36px;
+  color: var(--heading_font_color);
+  margin-bottom: 23.18px;
+}
+#about .container .about_contents .about_me .my_description {
+  font-family: var(--inter_font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+
+  color: #464555;
+}
+#about .container .about_contents .about_icons .title_txt {
+  font-family: var(--inter_font);
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1.2px;
+  color: #575e70;
+  margin-bottom: 8px;
+}
+#about .container .about_contents .about_icons .sub_title {
+  font-family: var(--inter_font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #191c1d;
+  margin-bottom: 8px;
+}
+
+#about .container .about_contents .about_icons .icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+#about .container .about_contents .about_icons .icons .icon_card {
+  padding: 16px;
+  width: 149.33px;
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: all linear 0.5s;
+}
+#about .container .about_contents .about_icons .icons .icon_card:hover {
+  box-shadow: 0 6px 16px -8px rgba(0, 0, 0, 0.392);
+  -webkit-box-shadow: 0 6px 16px -8px rgba(0, 0, 0, 0.392);
+  -moz-box-shadow: 0 6px 16px -8px rgba(0, 0, 0, 0.392);
+}
+
+#about .container .about_contents .about_icons .icons .icon_card img {
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+#about .container .about_contents .about_icons .icons .icon_card:hover img {
+  transform: rotate(360deg) scale(1.1);
+}
+
+#about .container .about_contents .about_icons .icons .icon_card .icon_name {
+  font-family: var(--inter_font);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #191c1d;
+}
+#about .container .about_contents .about_icons .icons .icon_card img {
+  margin-bottom: 10px;
+}
+
+/* ================= About ends ================= */

@@ -1,0 +1,101 @@
+/* ================= Hero starts ================= */
+#hero .container {
+  padding: 153px 24px;
+}
+#hero .container .hero_content {
+  /* padding: 24px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 48px;
+}
+
+#hero .container .hero_content h1 {
+  font-family: var(--plus_font);
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 70.4px;
+  letter-spacing: -1.28px;
+  color: var(--heading_font_color);
+  margin-bottom: 11px;
+}
+#hero .container .hero_content .profession {
+  font-family: var(--plus_font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+
+  color: #575e70;
+  margin-bottom: 24px;
+}
+#hero .container .hero_content .description {
+  width: 630px;
+  font-family: var(--inter_font);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31.5px;
+
+  color: #464555;
+  margin-bottom: 24px;
+}
+#hero .container .hero_content .cta_btns {
+  display: flex;
+
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+#hero .container .hero_content .btn_one {
+  padding: 12.5px 32px 13.5px 32px;
+  text-align: center;
+  cursor: pointer;
+}
+#hero .container .hero_content .btn_two {
+  padding: 11.5px 32px 12.5px 32px;
+  text-align: center;
+  color: #191c1d;
+  background-color: #ffff;
+  border: 1px solid #c7c4d8;
+  cursor: pointer;
+}
+#hero .container .hero_content .stacks_portion {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 24px;
+}
+
+#hero .container .hero_content .stacks_portion .stack_title {
+  font-family: var(--inter_font);
+  font-size: 12px;
+  font-weight: 600;
+  color: #575e70;
+  line-height: 18px;
+  letter-spacing: 1.2px;
+}
+#hero .container .hero_content .stacks_portion .stack_list ul {
+  display: flex;
+  gap: 8px;
+}
+#hero .container .hero_content .stacks_portion .stack_list ul li {
+  list-style: none;
+  padding: 4px 12px;
+  border-radius: 8px;
+  background-color: #ebe9fa;
+  color: #3535cd;
+  font-family: var(--inter_font);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+}
+#hero .container .hero_content .hero_image img {
+  border-radius: 16px;
+  margin: 6.74px 0px;
+ box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.26);
+-webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.26);
+-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.26);
+}
+
+/* ================= Hero starts ================= */
